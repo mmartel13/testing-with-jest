@@ -1,5 +1,5 @@
 const sum = (a, b) => {
-    if(!(a && b)){ //if a and b are not truthy. If I don't have a and b can't function
+    if(!(a && b)){ 
         return "Invalid Input"
     }
     return a + b;
@@ -18,10 +18,6 @@ const cube = (a) => {
     }
         return a * a * a;
 }
-
-// const exponent = (num, power) => {
-//     return num ** power
-// }
 
 module.exports = {sum, square, cube};
 
